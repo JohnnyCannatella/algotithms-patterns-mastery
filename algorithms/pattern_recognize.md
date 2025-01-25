@@ -1,0 +1,12 @@
+# Algorithm Patterns Recognize
+
+# Algorithm Patterns Reference Table
+
+| Pattern | How to Recognize | Common Use Cases | Related Patterns |
+|---------|-----------------|------------------|------------------|
+| Two-pointers | - Problems involving searching/comparing from both ends of array/linked list<br>- Need to find pairs meeting conditions<br>- Input is sorted or ordering matters | - Finding pairs in sorted array with target sum<br>- Removing duplicates from sorted arrays<br>- Container with most water<br>- String comparison<br>- Palindrome verification | - Sliding window<br>- Fast and slow pointers<br>- Merge intervals |
+| Sliding Window | - Problems with contiguous subarrays/substrings<br>- Finding subarrays meeting conditions<br>- Calculations among subarrays of size k<br>- Keywords: "consecutive", "contiguous" | - Maximum sum subarray of size k<br>- Longest substring with k distinct chars<br>- Minimum window substring<br>- Subarray averages<br>- Max/min subarray problems | - Two pointers<br>- Prefix sum |
+| Prefix Sum | - Range query problems<br>- Frequent subarray sum calculations<br>- Questions about cumulative values<br>- Quick access to contiguous segment sums | - Range sum queries<br>- Subarrays with sum k<br>- Equilibrium index finding<br>- Cumulative frequencies<br>- 2D region sum queries | - Sliding window<br>- Dynamic programming |
+| Floyd's Cycle Finding | - Cycle detection in linked lists<br>- Finding cycle start<br>- Number sequences forming cycles<br>- Loop detection with minimal space | - Linked list cycle detection<br>- Finding cycle start point<br>- Array index mapping problems<br>- Sequence generation | - Fast and slow pointers<br>- General cycle finding |
+| Cycle Finding | - Graph cycle detection<br>- Arrays with index pointers<br>- Repeated sequence problems<br>- Infinite loop detection | - Directed/undirected graph cycles<br>- Finding all graph cycles<br>- Function call loop detection<br>- State machine cycles<br>- Pattern repetition | - DFS<br>- Floyd's algorithm<br>- Topological sort |
+| Speedrun | - Optimization with time constraints<br>- Shortest path/minimum steps<br>- Game level traversal problems | - Optimal game level paths<br>- Minimum task completion time<br>- Shortest move sequences<br>- Time optimization | - BFS<br>- Dynamic programming<br>- Greedy algorithms |

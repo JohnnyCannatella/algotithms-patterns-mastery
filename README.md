@@ -9,6 +9,11 @@ This repository serves as a comprehensive resource for:
 * Data Structures & Algorithms mastery
 * LeetCode problem solutions with explanations
 
+## 📊 Progress Tracking
+* LeetCode Problems: [32/150]
+* Patterns Mastered: [2/12]
+* Current Focus: Two Pointers Pattern
+
 ## 📚 Repository Structure
 
 ```

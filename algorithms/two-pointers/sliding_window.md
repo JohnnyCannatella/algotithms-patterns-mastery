@@ -69,7 +69,7 @@ for end in range(len(array)):
 ```
 
 **Flexible Size Sliding Window Template - Shortest**
-```
+```python
 def sliding_window_flexible_shortest(input):
     initialize window, ans
     left = 0

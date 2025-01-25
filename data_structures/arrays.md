@@ -40,4 +40,10 @@ sorted_list = sorted(lst, reverse=True)  # nuovo array ordinato
 
 # Filtraggio
 filtered = list(filter(lambda x: x > 0, lst))
+
+#Manage Range
+range(n-1, -1, -1) significa:
+- start = n-1 = 3    (ultimo indice dell'array)
+- stop = -1          (ci fermiamo quando arriviamo a 0)
+- step = -1          (andiamo all'indietro)
 ```
